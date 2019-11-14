@@ -1,0 +1,23 @@
+{
+    "name": "ricardo-rocha/monolog",
+    "description": "Projeto de Monolog",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ricardo Rocha",
+            "email": "rocharor@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        },
+        "files": [
+            "src/Config.php"
+        ]
+    }
+}

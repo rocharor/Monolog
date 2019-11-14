@@ -1,0 +1,4 @@
+Config.php
+Logs/*
+vendor
+composer.lock
